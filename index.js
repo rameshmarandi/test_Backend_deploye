@@ -1,0 +1,14 @@
+import express from "express";
+
+
+const app = express();
+
+app.get("/", (req, res) => {
+     return res.json({message: "Hello World_depeinglid"});
+});
+
+
+
+app.listen(()=>{
+    console.log("Listening on port 3000");
+});
